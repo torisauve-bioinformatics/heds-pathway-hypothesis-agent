@@ -51,7 +51,7 @@ print(hypothesis)
 - **Absence of evidence is not evidence of absence.** A 'None' score from Open Targets or no KEGG pathway match means no "curated* association currently exists. It does not mean that no biological relationship exists. This is expected and relevant for diseases like hEDS with no confirmed genetic cause.
 - **Gene symbol resolution can be ambiguous** across KEGG, StringDB, and Ensembl/Open Targets IDs; mismatches are logged as warnings rather than failing silently.
 - **Planned extensions**:
-  -**Literature context via Pubmed.** Surface relevant abstracts for a proposed hypothesis, kept deliberately unscored as literature co-occurrence in an abstract does not reliably indicate mechanistic relevance the way structured database evidence does
+  - **Literature context via Pubmed.** Surface relevant abstracts for a proposed hypothesis, kept deliberately unscored as literature co-occurrence in an abstract does not reliably indicate mechanistic relevance the way structured database evidence does
   - **Automated revision loop,** feeding verification back to Claude for hypothesis refinement across multiple iterations.
   - **Reactome integration** for reaction-level mechanistic detail beyond KEGG's pathway-membership check.
   - **CLI wrapper** for repeatable command-line runs.
